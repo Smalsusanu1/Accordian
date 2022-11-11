@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "accordian",
+    "libraryId": "04ce6d43-2581-4012-a12e-48468d6250ff",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Accordian",
+    "solutionShortDescription": "Accordian description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

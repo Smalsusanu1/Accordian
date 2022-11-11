@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "myaccordian-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myaccordian/MyaccordianWebPart.js",
+          "manifest": "./src/webparts/myaccordian/MyaccordianWebPart.manifest.json"
+        }
+      ]
+    },
+    "accordian-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordian2/Accordian2WebPart.js",
+          "manifest": "./src/webparts/accordian2/Accordian2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyaccordianWebPartStrings": "lib/webparts/myaccordian/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "Accordian2WebPartStrings": "lib/webparts/accordian2/loc/{locale}.js"
+  }
+}

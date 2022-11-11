@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c340ece8-a400-4589-a802-1048621cf9cc",
+  "alias": "MyaccordianWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "myaccordian" },
+    "description": { "default": "myaccordian description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SPFx webpart which shows SharePoint list data in Accordion format",
+        "listName": "FAQ",
+        "totalItems": 20,
+        "maxItemsPerPage": 5,
+        "allowPaging": true,
+        "customSortField": "",
+        "sortById": false,
+        "sortByModified": false
+    }
+  }]
+}
